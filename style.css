@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Poppins', sans-serif; /* Clean and modern font */
+  background-color: #f9f9f9; /* Soft, light background for contrast */
+}
+
+.testimonial-container {
+  width: 500px;
+  min-width: 400px;
+  background-color: #ffffff; /* White background for a clean look */
+  border-radius: 15px; /* Softer corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 80px 30px 30px; /* Balanced padding for spacing */
+  margin: 10px;
+  color: #333; /* Neutral text color for readability */
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+
+.testimonial-container:hover {
+  transform: translateY(-10px); /* Lift effect */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+img {
+  width: 90px; /* Slightly smaller, balanced size */
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -45px; /* Adjusted to fit smaller size */
+  border: 4px solid #ffffff; /* Border for better visibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.username {
+  font-size: 16px; /* Slightly larger for readability */
+  font-weight: 500; /* Semi-bold for emphasis */
+  color: #555; /* Softer neutral color */
+  margin-top: 10px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #777; /* Softer text for secondary information */
+  line-height: 1.6; /* Better line spacing for readability */
+  margin-top: 15px;
+}
